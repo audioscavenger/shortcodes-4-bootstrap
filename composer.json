@@ -1,19 +1,19 @@
 {
-  "name": "mwdelaney/bootstrap-3-shortcodes",
-  "description": "WordPress shortcodes for easier use of Bootstrap elements in your content.",
+  "name": "mwdelaney/shortcodes-4-bootstrap",
+  "description": "Shortcodes for Bootstrap 3 & 4 grid, styles and components in WordPress.",
   "keywords": [
     "bootstrap",
     "shortcodes",
     "wordpress",
     "plugin"
   ],
-  "homepage": "https://github.com/mwdelaney/bootstrap-3-shortcodes",
-  "license": "GPL2",
+  "homepage": "https://github.com/mwdelaney/shortcodes-4-bootstrap",
+  "license": "GPL3",
   "authors": [
     {
-      "name": "Filip Stefansson",
-      "email": "filip.stefansson@gmail.com",
-      "homepage": "http://filipstefansson.com",
+      "name": "Eric Derewonko",
+      "email": "dev@derewonko.com",
+      "homepage": "http://www.derewonko.com",
       "role": "Developer"
     },
     {

@@ -1,0 +1,7 @@
+.gitattributes export-ignore
+.gitignore export-ignore
+.svnignore export-ignore
+deploy.sh
+composer.json
+Gruntfile.js
+package.json

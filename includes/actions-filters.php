@@ -25,7 +25,7 @@
 // ======================================================================== // 
 
     function bootstrap_shortcodes_styles_all() {
-        wp_register_style( 'bootstrap-shortcodes-help-all', plugins_url( 'bootstrap-3-shortcodes/includes/help/css/bootstrap-shortcodes-help-all.css' ) );
+        wp_register_style( 'bootstrap-shortcodes-help-all', BS_SHORTCODES_DIR . '/includes/help/css/bootstrap-shortcodes-help-all.css' );
         wp_enqueue_style( 'bootstrap-shortcodes-help-all' );
     }
 
@@ -63,10 +63,10 @@
 
     //Function to register and enqueue the documentation stylesheets
     function bootstrap_shortcodes_help_styles() {
-        wp_register_style( 'bs-font', plugins_url( 'bootstrap-3-shortcodes/includes/help/bs-font.css' ) );
-        wp_register_style( 'bootstrap-shortcodes-help', plugins_url( 'bootstrap-3-shortcodes/includes/help/css/bootstrap-shortcodes-help.css' ) );
-        wp_register_style( 'bootstrap-modal', plugins_url( 'bootstrap-3-shortcodes/includes/help/css/bootstrap-modal.css' ) );
-        wp_register_script( 'bootstrap', plugins_url( 'bootstrap-3-shortcodes/includes/help/js/bootstrap.min.js' ) );
+        wp_register_style( 'bs-font', BS_SHORTCODES_DIR . '/includes/help/bs-font.css' );
+        wp_register_style( 'bootstrap-shortcodes-help', BS_SHORTCODES_DIR . '/includes/help/css/bootstrap-shortcodes-help.css' );
+        wp_register_style( 'bootstrap-modal', BS_SHORTCODES_DIR . '/includes/help/css/bootstrap-modal.css' );
+        wp_register_script( 'bootstrap', BS_SHORTCODES_DIR . '/includes/help/js/bootstrap.min.js' );
         wp_enqueue_style( 'bootstrap-shortcodes-help' );
         wp_enqueue_style( 'bootstrap-modal' );
         wp_enqueue_style( 'bs-font' );
@@ -114,7 +114,7 @@
 // ======================================================================== // 
 
     function boostrap_shortcodes_help() {
-        include( BS_SHORTCODES_DIR . 'bootstrap-shortcodes-help.php');
+        include( BS_SHORTCODES_DIR . '/includes/bootstrap-shortcodes-help.php');
     }
 
     add_action( 'admin_footer', 'boostrap_shortcodes_help' );
